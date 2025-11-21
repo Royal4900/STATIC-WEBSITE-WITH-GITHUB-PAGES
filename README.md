@@ -1,6 +1,6 @@
 # DevOps Internship · Task 6
 
-Static website to complete Task 6 of the Elevate Labs x MSME DevOps Internship: **Host a static website using GitHub Pages.**
+ **Host a static website using GitHub Pages.**
 
 ## Preview
 
@@ -29,4 +29,5 @@ Any static file server works—just make sure `index.html` stays at the reposito
 - Add more sections (timeline, resources, contact form, etc.).
 - Adjust styles in `styles.css`, experiment with gradients, or add dark mode.
 - Replace Google Fonts with self-hosted assets if needed for restricted environments.
+
 
