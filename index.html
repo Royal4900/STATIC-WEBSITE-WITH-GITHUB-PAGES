@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Internship · Task 6</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero__badge">Elevate Labs · MSME</div>
+        <h1>DevOps Internship · Task 6</h1>
+        <p class="hero__subtitle">Host a static website with GitHub Pages and learn how to ship static content at scale—for free.</p>
+        <div class="hero__cta">
+            <a class="btn btn--primary" href="#guide">View Mini Guide</a>
+            <a class="btn btn--ghost" href="https://pages.github.com/" target="_blank" rel="noreferrer noopener">Learn GitHub Pages</a>
+        </div>
+        <div class="hero__meta">
+            <span>Objective: Deploy a simple HTML website using GitHub Pages.</span>
+            <span>Deliverables: Live site URL + GitHub repository.</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="panel summary">
+            <h2>Why This Matters</h2>
+            <p>Static hosting is often the first step in professional DevOps pipelines. Understanding how to publish a website with GitHub Pages introduces version control workflows, CI/CD concepts, and the mindset of shipping improvements quickly.</p>
+            <ul class="summary__stats">
+                <li>
+                    <span class="summary__label">Tools</span>
+                    <strong>GitHub · GitHub Pages</strong>
+                </li>
+                <li>
+                    <span class="summary__label">Outcome</span>
+                    <strong>Live site accessible globally</strong>
+                </li>
+                <li>
+                    <span class="summary__label">Timebox</span>
+                    <strong>~45 minutes</strong>
+                </li>
+            </ul>
+        </section>
+
+        <section id="guide" class="panel guide">
+            <div class="panel__header">
+                <h2>Mini Guide</h2>
+                <p>Follow these steps to complete the deployment.</p>
+            </div>
+            <ol class="guide__list">
+                <li>Create an <code>index.html</code> file (like this one) and optional assets such as CSS or images.</li>
+                <li>Initialize a new Git repository and push it to GitHub.</li>
+                <li>From your GitHub repo, open <strong>Settings → Pages</strong> and select the deployment source.</li>
+                <li>Choose the <strong>main</strong> branch and the <strong>root</strong> folder, then save.</li>
+                <li>Wait for GitHub Pages to build the site, then note the URL it provides.</li>
+                <li>Iterate with custom styles, accessibility improvements, and extra pages as needed.</li>
+            </ol>
+        </section>
+
+        <section class="panel checklist">
+            <h2>Shipping Checklist</h2>
+            <ul>
+                <li>✅ Repository contains only the assets you intend to publish.</li>
+                <li>✅ `README.md` documents how to preview and deploy.</li>
+                <li>✅ GitHub Pages build status is green.</li>
+                <li>✅ Site renders well on mobile and desktop screens.</li>
+                <li>✅ Links and buttons have descriptive labels for accessibility.</li>
+            </ul>
+        </section>
+
+        <section class="panel callout">
+            <h2>Need Inspiration?</h2>
+            <p>Try customizing this page by adding your own sections—maybe a timeline of the internship, a gallery of screenshots, or a contact form powered by a static form service. Every iteration helps you practice the DevOps mindset of continuous improvement.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Built for the Elevate Labs DevOps Internship · Task 6.</p>
+        <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+
